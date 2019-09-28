@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+.search {display:block; margin:auto; font-size: 90px; width:85%;}
+.search p {color:lightgray;font-weight: bold;}
+input {font-size: 90px;text-align: left; border: none; font-weight: bold;}
+#search-string {display: inline-block; width: 85%;}
+#search-picture {display: inline-block; width: 10%;}
+.people {font-size: 0;display: block; padding:0;}
+.people-unit
+ {
+ 	display: inline-block;
+ 	 font-size: 22px;
+ 	  width: 100%;
+ 	  text-align: center;
+ 	   background-color: #F8F6F6;
+ 	    color: darkgray;
+ 	      text-align: justify;
+ 	       transition: 0.5s;
+ 	       border-bottom: solid 3px white; 
+ 	       border-top: solid 3px white; 
+ 	       border-radius: 10px;
+ }
+.people-unit:hover
+ {color: gray; text-shadow: darkgray 2px 2px 3px; background-color: silver; border-bottom: solid 3px white; border-top: solid 3px white;}
+.people-unit img {display:inline-block; padding-left: 15px;padding-top: 15px; height:auto;}
+.people-unit p {display:inline-block; font-size: 16px;padding-left: 10px; letter-spacing: -1px;}
+.main-block {display:block;}
+.first-collumn {padding-left: 50px; display: inline-block; width: 32%;}
+.first-collumn>p {display:inline-block; font-size: 30px; color:darkgray;}
